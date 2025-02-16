@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/all_tv_serials2')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/all_tv_serials2')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'all_tv_serials2') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/adityahelp24_bot')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AJ_RiPPS')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AJ_RiPPS')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'AJ_RiPPS') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Shana_Support')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', '')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', '')

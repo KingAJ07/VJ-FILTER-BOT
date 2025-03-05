@@ -77,7 +77,7 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
-PAYMENT_QR = environ.get('PAYMENT_QR', 'https://t.me/Shana_Support') # payment code picture url.
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://t.me/AJ_TVSERIAL_BOT') # payment code picture url.
 PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - \n\n- 30ʀs - 1 ᴡᴇᴇᴋ\n- 50ʀs - 1 ᴍᴏɴᴛʜs\n- 120ʀs - 3 ᴍᴏɴᴛʜs\n- 220ʀs - 6 ᴍᴏɴᴛʜs\n\n🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎁\n\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n○ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n○ ʜɪɢʜ-sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ\n○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs\n○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs\n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n○ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ʜ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ\n\n✨ ᴜᴘɪ ɪᴅ - <code>demo@okxyz</code>\n\nᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan\n\n💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ\n\n‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
 
 
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Aniket_Movies')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Aniket_Movies_Hub')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Aniket_Movies_Hub') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Shana_Support')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AT_SERIAL')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AT_SERIAL')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'AT_SERIAL') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AJ_TVSERIAL_BOT')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -113,9 +113,9 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'modijiurl.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'ac775ba416177a1b33ae9d6589a731c258bc017e')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_downloadvanshaj4/159')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'papajiurl.com')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'b8b9bceee226aab97568c7163567b6cd31c603bd')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_downloadvanshaj4')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
